@@ -2,34 +2,38 @@ import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
- 
+ import complaint from "../../assets/Complaint-mgt.jpg"
+ import ecommerce from "../../assets/ecommerce.webp"
+  import tex from "../../assets/tax_income_18_1453094119__1455531022_73291.jpg"
+ import vichle from "../../assets/Vehicle-Tracking-and-Monitoring-System (1).webp"
+
 const projects = [
   {
     name: "Complaint Management System",
     year: "Feb2024",
     align: "right",
-    image: "/src/assets/Complaint-mgt.jpg", // Replace with actual image path
+    image: complaint, // Replace with actual image path
     link: "#",
   },
   {
     name: "E-commerce Website",
     year: "Jul2023",
     align: "left",
-    image: "/src/assets/ecommerce.webp", // Replace with actual image path
+    image: ecommerce, // Replace with actual image path
     link: "#",
   },
   {
     name: "Tax Management Platform",
     year: "Apr2024",
     align: "right",
-    image: "/src/assets/tax_income_18_1453094119__1455531022_73291.jpg", // Replace with actual image path
+    image: tex, // Replace with actual image path
     link: "#",
   },
   {
     name: "Vehicle Tracking System",
     year: "Dec2023",
     align: "left",
-    image: "/src/assets/Vehicle-Tracking-and-Monitoring-System (1).webp", // Replace with actual image path
+    image: vichle, // Replace with actual image path
     link: "#",
   },
 ];
