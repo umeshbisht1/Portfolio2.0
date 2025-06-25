@@ -13,14 +13,14 @@ const projects = [
     year: "Feb2024",
     align: "right",
     image: complaint, // Replace with actual image path
-    link: "#",
+    link: "https://complaint-management-system-g97j.vercel.app/",
   },
   {
     name: "E-commerce Website",
     year: "Jul2023",
     align: "left",
     image: ecommerce, // Replace with actual image path
-    link: "#",
+    link: "https://ecommerce-frontend-three-nu.vercel.app/",
   },
   {
     name: "Tax Management Platform",
@@ -34,7 +34,7 @@ const projects = [
     year: "Dec2023",
     align: "left",
     image: vichle, // Replace with actual image path
-    link: "#",
+    link: "",
   },
 ];
 

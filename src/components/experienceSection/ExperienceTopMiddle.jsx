@@ -1,7 +1,8 @@
+import skill from "../../assets/skills.avif"
 const ExperienceTopMiddle = () => {
   return (
     <div className="lg:w-[35%] md:w-[50%] sm:w-[80%]">
-      <img src="../../public/images/experience-image.png" alt="my experience" />
+      <img src={skill} alt="my experience" />
     </div>
   );
 };
