@@ -5,13 +5,17 @@ const AboutMeText = () => {
     <div className="flex flex-col md:items-start sm:items-center md:text-left sm:text-center">
       <h2 className="text-6xl text-cyan mb-10">About Me</h2>
       <p>
-        I’m Abdelrahman, a web developer instructor with a passion for teaching
-        and coding. I specialize in React and front-end development, helping
-        students build real-world projects and master modern web technologies. I
-        also run a YouTube channel, CodeNest, where I create tutorials and
-        courses to guide aspiring developers in their journey toward successful
-        careers in tech. Outside of coding, I enjoy continuous learning and
-        sharing knowledge to inspire others to achieve their goals.
+        I’m Umesh Singh Bisht, a passionate software developer and tech
+        enthusiast with a strong focus on problem-solving and backend
+        development. I specialize in C++, data structures and algorithms, and
+        have experience building real-world projects using modern web
+        technologies. With over 800+ problems solved on LeetCode and a deep
+        interest in scalable systems, I aim to bridge theoretical knowledge with
+        practical implementation. I actively share my learning journey,
+        contribute to open-source, and enjoy mentoring peers to help them grow
+        in tech. Outside of development, I’m driven by continuous learning,
+        building impactful solutions, and inspiring others to pursue their goals
+        in the software industry.
       </p>
       <button className="border border-orange rounded-full py-2 px-4 text-lg flex gap-2 items-center mt-10 hover:bg-orange transition-all duration-500 cursor-pointer md:self-start sm:self-center">
         <Link

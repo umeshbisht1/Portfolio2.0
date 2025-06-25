@@ -5,34 +5,35 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Complaint Management System",
+    year: "Feb2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "../../public/images/Complaint-mgt.jpg", // Replace with actual image path
     link: "#",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "E-commerce Website",
+    year: "Jul2023",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "../../public/images/ecommerce.webp", // Replace with actual image path
     link: "#",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Tax Management Platform",
+    year: "Apr2024",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "../../public/images/tax_income_18_1453094119__1455531022_73291.jpg", // Replace with actual image path
     link: "#",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Vehicle Tracking System",
+    year: "Dec2023",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "../../public/images/Vehicle-Tracking-and-Monitoring-System (1).webp", // Replace with actual image path
     link: "#",
   },
 ];
+
 
 const ProjectsMain = () => {
   return (
