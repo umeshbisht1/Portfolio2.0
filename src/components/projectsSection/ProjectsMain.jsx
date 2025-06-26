@@ -34,7 +34,7 @@ const projects = [
     year: "Dec2023",
     align: "left",
     image: vichle, // Replace with actual image path
-    link: "",
+    link: "https://github.com/umeshbisht1/vehicle_tracking_system.git",
   },
 ];
 
@@ -59,6 +59,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
